@@ -14,6 +14,6 @@ We also investigated two possible approaches for discovery of acceleration: (1) 
 @misc{Darpa-Disco,
   author = {Sarthak Gupta, Yaoteng Tan, Nebiyou Yismaw, Patrick Yubeaton, Salman Asif, Chinmay Hegde},
   month = april,
-  title = {{Darpa-Disco}},
+  title = {{DISCO: Discovery of Sparsity Constrained Optimization Algorithms}},
   year = {2025}
 ```
