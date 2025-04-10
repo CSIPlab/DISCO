@@ -12,7 +12,7 @@ In this section, we explore efficient modeling approaches for shift-varying syst
 
 ## **Citation**
 ```
-@misc{Darpa-Disco,
+@misc{disco,
   author = {Sarthak Gupta, Yaoteng Tan, Nebiyou Yismaw, Patrick Yubeaton, Salman Asif, Chinmay Hegde},
   month = april,
   title = {{DISCO: Discovery of Sparsity Constrained Optimization Algorithms}},
