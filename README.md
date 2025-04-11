@@ -13,7 +13,7 @@ We rediscover FISTA by creating sufficiently large DARTS cells and have the mode
 We also investigated two possible approaches for discovery of acceleration: (1) Add **momentum** terms in the unrolled network, which are equivalent to adding the skip connections in the network. (2) Add a **preconditioning** operator in the forward/adjoint steps.
 
 <center>
-<img src="images/fig-acceleration.png" alt= “acceleration” width="400">
+<img src="images/acceleration/fig-acceleration.png" alt= “acceleration” width="400">
 </center>
 
 ## **Shift Varying Systems**

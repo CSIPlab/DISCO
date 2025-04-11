@@ -30,7 +30,11 @@ By training $\Theta$, we aim to find an optimal way to combine information from 
 ## Pseudo-inverse preconditioner
 Existing preconditioning techniques can be broadly categorized into three types: (1) **Right preconditioning**,  where a fixed invertible operator $P$ is applied to the right side of system matrix as $b = APP^{-1}x \equiv APu$, where $u=P^{-1}x$. (2) **Left preconditioning**, where a fixed operator $B$ is applied to the left side of the system matrix and measurements as $Bb=BAx$. (3) **Adaptive preconditioning**, where the gradient direction is modified at every iteration of the the gradient. The adaptive preconditioning is further related to methods like BFGS, adaGrad, RMSProp, and ADAM ([Adaptive preconditioning: AdaGrad and ADAM](https://www.mit.edu/~gfarina/2024/67220s24_L13_adagrad/L13.pdf)).
 
-### Learned preconditioning
+<center>
+<img src="../images/acceleration/fig-pinv_vs_adjoint.png" alt= “acceleration” width="400">
+</center>
+
+### Discover preconditioning
 In our experiments, we primarily focused on the left preconditioning. We apply a preconditioner $B$ to transform the system as $Bb=BAx$. This transformation does not change the solution but modifies the path taken by the iterative solver. 
 The iterative update of the original ISTA algorithm applies adjoint operator on the residual as 
 
