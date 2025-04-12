@@ -55,4 +55,4 @@ Below, we demonstrate the acceleration achieved by replacing the adjoint operato
 
 
 ## Getting start
-We provide python scripts with detailed instruction of our momentum and preconditioner discovery process under `momentum_discovery` and `preconditioner_discovery` directories.
+We provide python scripts with detailed instruction of our momentum and preconditioner discovery process under [`momentum_discovery`](momentum_discovery) and [`preconditioner_discovery`](preconditioner_discovery) directories. In [`LISTA_solver_comparision`](LISTA_solver_comparision), we present the complete framework that incorporates both momentum and preconditioner discovery, providing a new perspective for accelerating LISTA-type solvers.
