@@ -23,7 +23,7 @@ We also investigated two possible approaches for discovery of acceleration: (1) 
 </center>
 
 ## [**Shift Varying Systems**](shift_varying)
-Beyond solver sparse recovery problems, we further explore efficient modeling approaches for shift-varying systems using our framework. We focus on imaging applications such as shift-varying blur and atmospheric turbulence. These systems are typically large and computationally expensive to represent directly. Our objective is to discover novel and efficient factorizations starting from minimal assumptions.
+Sparse recovery algorithms rely on a well-defined forward model of the problem. However, many practical imaging applications, such as shift-varying blur and atmospheric turbulence, involve shift-varying systems that are computationally expensive to model directly. Storing the full forward operator in these cases is often infeasible. The goal of this experiment is to explore and learn efficient modeling approaches for these systems.
 
 <center>
 <img src="images/fig-shift-varing.png" alt= shift-varing width="400">
