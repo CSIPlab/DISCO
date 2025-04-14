@@ -3,7 +3,7 @@
 This repository aims to automate the discovery of algorithms through the use of various machine learning techniques. We focus on sparse recovery algorithms due to their many applications and a rich theoretical understanding of these algorithms. This situates sparse recovery algorithms as the perfect sandbox for testing out frameworks aimed at algorithm discovery. 
 
 <center>
-<img src="images/motivation.png" alt= motivation width="400">
+<img src="images/motivation.png" alt= motivation width="800">
 </center>
 
 ## [**NAS FISTA**](fista_nas)
