@@ -1,4 +1,10 @@
-This repository aims to automate the discovery of algorithms through the use of various machine learning techniques. We start by exploring sparse coding and see how a Neural Architecture Search (NAS) based training framework can recreate algorithms such as the Fast Iterative Shrinkage Thresholding Algorithm (FISTA). 
+## Overview
+
+This repository aims to automate the discovery of algorithms through the use of various machine learning techniques. We focus on sparse recovery algorithms due to their many applications and a rich theoretical understanding of these algorithms. This situates sparse recovery algorithms as the perfect sandbox for testing out frameworks aimed at algorithm discovery. 
+
+<center>
+<img src="images/motivation.png" alt= motivation width="400">
+</center>
 
 ## [**NAS FISTA**](fista_nas)
 
