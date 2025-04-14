@@ -20,7 +20,7 @@ from skimage.restoration import denoise_nl_means, estimate_sigma
 from skimage.metrics import peak_signal_noise_ratio
 from skimage.util import random_noise
 
-sys.path.append('../../Fall2024/DARPA/non_local_means/')
+# sys.path.append('../../Fall2024/DARPA/non_local_means/')
 from data import get_dataloader
 from utils import img_utils
 from utils.logger_config import get_logger

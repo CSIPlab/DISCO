@@ -22,7 +22,7 @@ We also investigated two possible approaches for discovery of acceleration: (1) 
 <img src="images/acceleration/fig-acceleration.png" alt= “acceleration” width="400">
 </center>
 
-## [**Shift Varying Systems**](shift_varying)
+## [**Shift Varying Systems**](shift_varying_system_discovery/)
 Sparse recovery algorithms rely on a well-defined forward model of the problem. However, many practical imaging applications, such as shift-varying blur and atmospheric turbulence, involve shift-varying systems that are computationally expensive to model directly. Storing the full forward operator in these cases is often infeasible. The goal of this experiment is to explore and learn efficient modeling approaches for these systems.
 
 <center>
